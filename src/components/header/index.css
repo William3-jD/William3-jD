@@ -1,0 +1,117 @@
+.header{
+    height: 97px;
+    /* border:1px solid black; */
+}
+.header-logo{
+    float: left;
+    width: 55px;
+    margin-top: 23px;
+    background-color: #ff6700;
+    border-radius: 35%;
+    margin-right: 185px;
+    /* border: 1px solid black; */
+    
+}
+.header-logo a{
+    display: block;
+    height: 55px;
+    width: 55px;
+    background:url(./imges/mi-logo.png);
+    background-position: center;
+    
+}
+.header-logo .logo {
+    text-align: left;
+    text-indent: -9992em;
+}
+
+.head{
+    float: left;
+}
+.head ul{
+    float: left;
+    /* position: absolute; */
+    height: 97px;
+    line-height: 97px;
+    top: 0px;
+    margin: 0px;
+    background-color: #fff;
+}
+.headf{
+    position: relative;
+    left: 0px;
+}
+/* .head-a{
+    width: 500px;
+} */
+.head ul li{
+    float: left;
+    list-style-type:none ;
+    
+    /* padding: 49px 0; */
+    padding-right: 20px;
+    margin: 0px;
+}
+.head-flow-commodity{
+    color: #333;
+    font-size: 16px;
+    height: 97px;
+    
+}
+.head-flow-commodity:hover{
+    color: #ff6700;
+}
+
+
+/* head-list */
+.head-list{
+    position: absolute;
+    height: 230px;
+    width: 100%;
+    top: 137px;
+    z-index: 10;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px #a0a0a0;
+    display: none;
+}
+.children-list{
+    background-color: #fff;
+    width: 1226px;
+    height: 230px;
+    margin-top: 0px;
+    padding-top: 35px;
+    
+}
+.children{
+    display: block;
+    width: 198px;
+    height: 170px;
+    margin-right: auto;
+    margin-bottom: 35px;
+    float: left;
+}
+.children a div, p{
+    font-size: 7px;
+}
+.children-01{
+    border-right:1px solid #e0e0e0;
+    display: block;
+    margin: 0 18px;
+}
+.children-02{
+    color: #333;
+    text-align: center;
+    margin-top: 22px;
+}
+.children-03{ 
+    color: #ff6700;
+    text-align: center;
+    
+}
+.children:first-child{
+    margin-left: 18px;
+}
+.children-01 img{
+    width:160px;
+    height: 110px;
+}

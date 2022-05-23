@@ -1,0 +1,83 @@
+/* .nav{
+    width: 1226px;
+    height: 463px;
+    background-color: yellow;
+} */
+.nav-list{
+    position: absolute;
+    display: block;
+    float: left;
+    width: 232px;
+    height: 463px;
+    top: 0px;
+    background-color: rgb(20, 21, 13, 0.5);
+    border: none;
+    z-index: 5;
+    
+}
+.nav-list-title{
+    position: absolute;
+    top: 20px;
+    width: 232px;
+    height: 420px;
+    border: none;
+    /* background-color: blue; */
+    
+}
+.title{
+    cursor:pointer
+}
+.title a{
+    height: 42px;
+    line-height: 42px;
+    color: #fff;
+    padding-left: 30px;
+}
+.title:hover{
+    background-color: #ff6700;
+    opacity: 1;
+}
+.title div{
+    
+    height: 23px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 28px;
+}
+.nav-list-com{
+    position: absolute;
+    /* display: block; */
+    /* float: right; */
+    display: none;
+    top: 0px;
+    margin-left: 232px;
+    background-color: #fff;
+    box-shadow: 2px 2px 10px #69696956;
+    z-index: 10;
+    
+}
+.nav-list-com ul{
+    display: block;
+    float: left;
+    height: 449px;
+    width: 248.7px;
+}
+.nav-list-com ul li{
+    /* position: relative; */
+    /* float: left; */
+    /* display: block; */
+    cursor:pointer;
+    height: 76px;
+    line-height: 76px;
+    width: 265px;
+    padding-left: 30px;
+    /* background-color: rgb(18, 219, 209) ; */
+    
+}
+.nav-list-com ul li span{
+    margin-left: 12px;
+}
+.nav-list-com ul li:hover{
+    color: #ff6700;
+    transition: color .2s;
+}

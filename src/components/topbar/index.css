@@ -1,0 +1,72 @@
+.topbar{
+    height: 40px;
+    background-color: #333;
+    /* border: 1px solid black; */
+}
+a{
+    text-decoration: none;
+}
+.topbar a{
+    font-size: 12px;
+    color: #b0b0b0;
+}
+.topbar a:hover{
+    color: white;
+}
+
+.menu-nav{
+    float: left;   
+    font-size: 0;
+}
+.menu-nav a{
+    /* height: 40px; */
+    line-height: 40px;
+    padding: 15px 0px;
+    margin-right: 2.5px;
+}
+.menu-nav span{
+    font-size: 12px;
+    color: #424242;
+    margin: 0 0.5em;
+    font-family: sans-serif;
+}
+
+.menu-car{
+    float: right;
+}
+.menu-car a{
+    display: block;
+    height: 40px;
+    width: 120px;
+    line-height: 40px;
+    background-color: #424242;
+    text-align: center;
+}
+.menu-car a:hover{
+    color: #ff6700;
+    background-color: white;
+}
+.menu-car span{
+    font-size: 12px;
+}
+.info{
+    float: right;
+    margin-right: 15px;
+}
+.info .sep{
+    padding: 0 10px;
+}
+.info a{
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 5px;
+}
+.info span{
+    float: left;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: #424242;
+    height: 40px;
+    line-height: 40px;
+}

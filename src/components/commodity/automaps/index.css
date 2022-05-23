@@ -1,0 +1,77 @@
+.automaps{
+    position: relative;
+    width: 1226px;
+    height: 463px;
+    /* border: 1px solid black; */
+    /* overflow: hidden; */
+}
+.img{
+    width: 1226px;
+    height: 463px;
+    /* overflow: hidden; */  
+}
+
+.automaps button{
+    position: absolute;
+    width: 44px;
+    height: 70px;
+    top: 193.5px;
+    display: block;
+    border: none;  
+    opacity: 0.2;
+    z-index: 2;
+    background-color: #b0b0b0;
+    cursor: pointer;
+}
+.automaps button:hover{
+    opacity: 1;
+}
+#maps{
+    /* position: absolute; */
+    list-style-type: none;
+    width: 1226px;
+}
+.map a{
+    position: absolute;
+    /* display: none; */
+    
+}
+/* .shouImg{
+    display: block;
+} */
+/* #map li:first-child{
+    display: block;
+} */
+#map-last{
+    left: 232px;
+    /* background:#b0b0b0 url(../img/轮播图/right.png); */
+}
+#map-next{  
+    right: 0px;
+    /* background: #b0b0b0 url(../img/轮播图/right.png); */
+    
+}
+
+.navTag{
+    position: absolute;
+    bottom: 28px;
+    right: 30px;
+}
+.navTag li{      
+    float: left;
+    width: 9px;
+    height: 9px;   
+    background-color: #b0b0b0;
+    margin: 0 4px;
+    border-radius: 100%;
+    border: 2px solid #b0b0b0 
+}
+.navTag li:hover{
+    background-color: white;
+}
+/* .shouTag{
+    background-color: white;
+} */
+.tag{
+    cursor: pointer;
+}

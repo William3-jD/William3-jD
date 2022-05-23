@@ -1,0 +1,67 @@
+.mapstab{
+    position: relative;
+    /* background-color: blue; */
+    height: 170px;
+    width: 1226px;
+    margin-top: 14px
+}
+
+.span4{
+    float: left;
+}
+.tab_handl_list{
+    width: 234px;
+    height: 170px;
+    background-color: #5f5750;
+}
+.tab_handl_list li{
+    display: block;
+    width: 70px;
+    height: 82px;
+    float: left;
+    
+    margin: 0px 3.5px;
+}
+.tab_handl_list li a{
+    display: block;
+    color: #ffffff;
+    padding: 18px 0px 0px;
+    margin: 0px auto;
+    text-align: center;
+    opacity: .7;
+    font-size: 12px;
+    transition: opacity .2s;
+    /* background-color: green; */
+}
+.tab_handl_list li a:hover{
+    opacity: 1;
+}
+.tab_handl_list li a img{
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: 3px auto;
+}
+
+.span16{  
+    float: right;
+    
+}
+.tab_handl_img li{
+    width: 316px;
+    height: 170px;
+    /* background-color: blue; */
+    float: left;
+    margin-left: 14px; 
+}
+.tab_handl_img li:hover{
+    box-shadow: 0px 0.1px 2px 0.5px rgba(158, 158, 158, 0.753);
+    transition: box-shadow .3s;
+}
+.tab_handl_img img{
+    width: 316px;
+    height: 170px;
+}
+.tab_handl_img li:first-child{
+    margin-left: 0px;
+}
